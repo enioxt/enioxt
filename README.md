@@ -22,7 +22,7 @@ A premissa é simples: agente útil precisa de regras claras, proveniência (de 
 ## Comece por aqui — três portas
 
 1. **[O kit aberto (MIT)](https://cinco.ia.br/kit/)** — cinco motores testados (fila de agentes, painel vivo, vigia, porta de entrada, crônica). Feito para **colar inteiro na sua inteligência artificial** (Claude Code, Cursor, o que você já usa) e pedir para ela rodar. Tudo local, na sua máquina.
-2. **[`egos-governance`](https://github.com/enioxt/egos-governance)** — as regras, padrões e incidentes que governam agentes EGOS. Cole o README no chat da sua IA e peça para ela operar dentro dessas regras.
+2. **[cinco.ia.br](https://cinco.ia.br)** — o convite completo: o céu do ecossistema com o status real de cada peça, a constituição em cinco regras, e a entrada da federação em [/entrar](https://cinco.ia.br/entrar) (login GitHub + aceite).
 3. **Conversa direta** — [egos.ia.br](https://egos.ia.br) tem o botão de WhatsApp; o diagnóstico vem antes de qualquer promessa.
 
 **O princípio que rege tudo isso:** o que se compartilha aqui é livre para forkar — *no universo que nasce na tua máquina, o sol és tu*. Ser convidado é um caminho; fundar o seu é outro, igualmente bem-vindo. Adotar cada regra é escolha sua, regra a regra — a constituição viaja como oferta, nunca como imposição.
@@ -33,7 +33,7 @@ A premissa é simples: agente útil precisa de regras claras, proveniência (de 
 
 | Repo | O que faz |
 |------|-----------|
-| [`egos-governance`](https://github.com/enioxt/egos-governance) | OS de governança para software agêntico — padrões testados em produção, pipeline de pre-commit, skills meta-cognitivas |
+| [`egos-governance`](https://github.com/enioxt/egos-governance) | OS de governança para software agêntico — **congelado como registro (31/08/2026)**: segue legível e forkável; o vivo está no kit |
 | [`egos-governance-skill`](https://github.com/enioxt/egos-governance-skill) | A mesma governança em formato skill: doc-drift-shield, evidence-gate, padrões SSOT para qualquer projeto com LLM |
 | [`guard-brasil`](https://github.com/enioxt/guard-brasil) | Camada de segurança de IA para o Brasil — masking de PII/LGPD (CPF, CNPJ, RG, CNH, placa…), alternativa PT-BR ao Presidio |
 | [`gem-hunter`](https://github.com/enioxt/gem-hunter) | Motor de descoberta de projetos IA/Web3 emergentes |
