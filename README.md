@@ -1,30 +1,31 @@
-# Enio Rocha · Arquiteto de IA 👋
+# Enio Rocha · investigador e arquiteto de sistemas de IA 👋
 
-Construo infraestrutura para agentes de IA que sabem o que **não** podem fazer.
+Construo infraestrutura para agentes de IA que **provam o que afirmam** e sabem o que **não** podem fazer — em domínios onde erro, segurança e rastreabilidade importam.
 
-Trabalho na interseção entre **governança**, **auditoria** e **educação em IA** — produzindo sistemas abertos que qualquer pessoa ou empresa pode inspecionar, adaptar e operar com confiança. Distribuo tudo em aberto: a gravidade vem de quem encontra valor real, não de funil.
+Ponto de partida: investigação policial. A tecnologia veio depois, para resolver problemas que eu conhecia por dentro. Isso virou método, o método virou framework, e o framework virou uma federação que roda todo dia.
 
-Filosofia: *Karpathy / Simplicity First* — ferramentas auditáveis, automação sem caixas-pretas, agentes que documentam suas razões.
-
----
-
-## O que é o EGOS
-
-**EGOS** é um framework brasileiro de orquestração para agentes de IA governados.
-
-A premissa é simples: agentes úteis precisam de regras claras, rastreabilidade de decisões (proveniência) e fronteiras que nunca são cruzadas sem aprovação humana. O EGOS constrói essa infraestrutura — em público, em português, com código que você pode auditar.
-
-Não é plataforma. É arquitetura.
+> **Este é o mapa geral.** Todos os meus repositórios públicos apontam para cá; daqui você chega a tudo.
 
 ---
 
-## Comece por aqui
+## O todo, em duas camadas
 
-### [`egos-governance`](https://github.com/enioxt/egos-governance) — Governança OS para software agêntico
+| Camada | O que é | Onde |
+|---|---|---|
+| **CINCO** | O ecossistema mais amplo — o convite, o universo, a federação de pessoas | [cinco.ia.br](https://cinco.ia.br) |
+| **EGOS** | O framework/federação de IA governada que me representa dentro dele — agentes, regras, skills, memória, provas | [egos.ia.br](https://egos.ia.br) |
 
-O ponto de entrada. Contém o conjunto de regras, contratos e metaprompts que governam agentes EGOS.
+A premissa é simples: agente útil precisa de regras claras, proveniência (de onde veio cada informação), decisão humana nas partes sensíveis e fronteiras que não se cruzam em silêncio. Não é plataforma. É arquitetura — em público, em português, com código que você pode auditar.
 
-> **Cole o README no chat da sua IA favorita** (ChatGPT, Claude, Gemini) e peça para ela operar dentro dessas regras. É assim que o framework se instala — sem formulário, sem cadastro.
+---
+
+## Comece por aqui — três portas
+
+1. **[O kit aberto (MIT)](https://cinco.ia.br/kit/)** — cinco motores testados (fila de agentes, painel vivo, vigia, porta de entrada, crônica). Feito para **colar inteiro na sua inteligência artificial** (Claude Code, Cursor, o que você já usa) e pedir para ela rodar. Tudo local, na sua máquina.
+2. **[`egos-governance`](https://github.com/enioxt/egos-governance)** — as regras, padrões e incidentes que governam agentes EGOS. Cole o README no chat da sua IA e peça para ela operar dentro dessas regras.
+3. **Conversa direta** — [egos.ia.br](https://egos.ia.br) tem o botão de WhatsApp; o diagnóstico vem antes de qualquer promessa.
+
+**O princípio que rege tudo isso:** o que se compartilha aqui é livre para forkar — *no universo que nasce na tua máquina, o sol és tu*. Ser convidado é um caminho; fundar o seu é outro, igualmente bem-vindo. Adotar cada regra é escolha sua, regra a regra — a constituição viaja como oferta, nunca como imposição.
 
 ---
 
@@ -32,22 +33,25 @@ O ponto de entrada. Contém o conjunto de regras, contratos e metaprompts que go
 
 | Repo | O que faz |
 |------|-----------|
-| [`egos-governance`](https://github.com/enioxt/egos-governance) | OS de governança para agentes — regras, proveniência, anti-alucinação |
-| [`guard-brasil-skill`](https://github.com/enioxt/guard-brasil-skill) | Auditoria de claims e proteção de dados pessoais brasileiros para IA |
-| [`gem-hunter-skill`](https://github.com/enioxt/gem-hunter-skill) | Descoberta de repositórios emergentes em IA/ML e Web3 com OSINT |
-| [`awesome-gems`](https://github.com/enioxt/awesome-gems) | Lista curada semanal de repositórios de IA/ML que merecem atenção |
+| [`egos-governance`](https://github.com/enioxt/egos-governance) | OS de governança para software agêntico — padrões testados em produção, pipeline de pre-commit, skills meta-cognitivas |
+| [`egos-governance-skill`](https://github.com/enioxt/egos-governance-skill) | A mesma governança em formato skill: doc-drift-shield, evidence-gate, padrões SSOT para qualquer projeto com LLM |
+| [`guard-brasil`](https://github.com/enioxt/guard-brasil) | Camada de segurança de IA para o Brasil — masking de PII/LGPD (CPF, CNPJ, RG, CNH, placa…), alternativa PT-BR ao Presidio |
+| [`gem-hunter`](https://github.com/enioxt/gem-hunter) | Motor de descoberta de projetos IA/Web3 emergentes |
+| [`gem-hunter-skill`](https://github.com/enioxt/gem-hunter-skill) | Descoberta de repositórios emergentes com OSINT, em formato skill |
+| [`awesome-gems`](https://github.com/enioxt/awesome-gems) | Lista curada semanal de repositórios de IA/ML que merecem atenção antes de virarem mainstream |
 | [`egos-cortex`](https://github.com/enioxt/egos-cortex) | Segundo cérebro pessoal, local-first: observa seus arquivos e responde em linguagem natural |
-| [`egos-lab`](https://github.com/enioxt/egos-lab) | Experimentos em andamento — sem garantia, com aprendizado público |
+| [`radio-philein`](https://github.com/enioxt/radio-philein) | Uma rádio que roda o dia inteiro sem transmitir um byte de áudio — [ao vivo](https://cinco.ia.br/radio/), parte do cinco |
+| [`BLUEPRINT-EGOS`](https://github.com/enioxt/BLUEPRINT-EGOS) | O quadro branco histórico: whitepaper e manifesto fundacional (arquivado, somente leitura) |
+
+**E o resto?** Boa parte do trabalho vive em repositórios privados — clientes, investigação, dados sob sigilo. A regra é a 4ª do framework: **o motor viaja; o dado real, nunca.** O que pode ser aberto, abre; a fronteira é declarada, não escondida.
 
 ---
 
 ## Acompanhe
 
-Estou construindo isso em público. Se faz sentido para você, venha entender de perto.
-
+- 🌐 **Sites:** [egos.ia.br](https://egos.ia.br) · [cinco.ia.br](https://cinco.ia.br) · [Mission Control público](https://lab.egos.ia.br/monitor-publico)
 - 💬 **Grupo Telegram:** [t.me/+z0qkXDu68N42NDcx](https://t.me/+z0qkXDu68N42NDcx)
-- 🌐 **Site:** [egos.ia.br](https://egos.ia.br)
 
----
+Filosofia de trabalho: *Simplicity First* — o mínimo que resolve, falha visível, sem caixa-preta; e **verdade provada**: afirmação sem prova não sobe.
 
-<sub>EGOS Framework · atualizado em 17 de junho de 2026</sub>
+<sub>EGOS Framework · atualizado em 31 de agosto de 2026</sub>
