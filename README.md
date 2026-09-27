@@ -17,6 +17,30 @@ Ponto de partida: investigação policial. A tecnologia veio depois, para resolv
 
 A premissa é simples: agente útil precisa de regras claras, proveniência (de onde veio cada informação), decisão humana nas partes sensíveis e fronteiras que não se cruzam em silêncio. Não é plataforma. É arquitetura — em público, em português, com código que você pode auditar.
 
+
+---
+
+## Como eu opero — antes do catálogo
+
+Antes de listar ferramentas, vale dizer **como eu chego nelas**. Não trato isso como teste de personalidade
+nem como identidade fixa; são modos de trabalho que aparecem repetidamente na investigação, no código,
+na pesquisa e nas decisões do EGOS:
+
+| Modo | O que faço quando ele está forte | O contrapeso que construí no sistema |
+|---|---|---|
+| **Investigar** | desmonto o problema, procuro contradições, fonte, cadeia de evidência e o que não fecha | prova, proveniência, REAL/CONCEPT/PHANTOM e critérios de aceite |
+| **Executar** | transformo entendimento em experimento, sistema, oferta ou próximo passo concreto | HITL, limites de autonomia, gates e revisão antes do irreversível |
+| **Explorar** | conecto áreas distantes, testo ferramentas e abro hipóteses que ainda não estavam formuladas | `/discover`, teto de frentes e separação entre ideia, protótipo e capacidade real |
+| **Integrar** | volto às pessoas: autonomia, privacidade, compreensão, impacto e possibilidade de saída | Humano Soberano, Dado Soberano, local-first e falha visível |
+
+O ciclo que mais se repete é **explorar → investigar → executar → integrar**. O EGOS nasceu, em parte,
+para amplificar as forças desse ciclo e colocar freios onde elas podem exagerar: exploração sem corte vira
+dispersão; investigação sem exposição vira construção infinita; execução sem prova vira pressa; integração
+sem decisão vira adiamento.
+
+Por isso, o que aparece abaixo é organizado por **capacidades demonstráveis**, não por uma pilha de
+repositórios. O GitHub é a fonte de prova; o **Cinco é a camada que condensa a história**.
+
 ---
 
 ## Comece por aqui — três portas
@@ -29,20 +53,21 @@ A premissa é simples: agente útil precisa de regras claras, proveniência (de 
 
 ---
 
-## Repositórios públicos
+## Capacidades públicas — o GitHub pelo que ele prova
 
-| Repo | O que faz |
-|------|-----------|
-| [`egos-governance`](https://github.com/enioxt/egos-governance) | OS de governança para software agêntico — **congelado como registro (31/08/2026)**: segue legível e forkável; o vivo está no kit |
-| [`egos-governance-skill`](https://github.com/enioxt/egos-governance-skill) | A mesma governança em formato skill: doc-drift-shield, evidence-gate, padrões SSOT para qualquer projeto com LLM |
-| [`guard-brasil`](https://github.com/enioxt/guard-brasil) | Camada de segurança de IA para o Brasil — masking de PII/LGPD (CPF, CNPJ, RG, CNH, placa…), alternativa PT-BR ao Presidio |
-| [`gem-hunter`](https://github.com/enioxt/gem-hunter) | Motor de descoberta de projetos IA/Web3 emergentes |
-| [`gem-hunter-skill`](https://github.com/enioxt/gem-hunter-skill) | Descoberta de repositórios emergentes com OSINT, em formato skill |
-| [`awesome-gems`](https://github.com/enioxt/awesome-gems) | Lista curada semanal de repositórios de IA/ML que merecem atenção antes de virarem mainstream |
-| [`egos-cortex`](https://github.com/enioxt/egos-cortex) | Segundo cérebro pessoal, local-first: observa seus arquivos e responde em linguagem natural |
-| [`radio-philein`](https://github.com/enioxt/radio-philein) | Uma rádio que roda o dia inteiro sem transmitir um byte de áudio — [ao vivo](https://cinco.ia.br/radio/), parte do cinco |
-| [`BLUEPRINT-EGOS`](https://github.com/enioxt/BLUEPRINT-EGOS) | O quadro branco histórico: whitepaper e manifesto fundacional (arquivado, somente leitura) |
+Esta não é uma lista completa do que sei fazer. É a **projeção pública do que já tem evidência
+inspecionável**. Um mesmo repositório pode provar mais de uma capacidade; uma capacidade pode ser
+formada por vários repositórios. O índice interno continua sendo o registry do EGOS — aqui entra só o
+recorte que faz sentido mostrar ao mundo.
 
+| Capacidade | O que está sendo demonstrado | Evidências públicas |
+|---|---|---|
+| **Governança de IA e agentes auditáveis** | regras que viram gates, evidência antes de afirmação, HITL, SSOT e prevenção de drift | [`egos-governance-skill`](https://github.com/enioxt/egos-governance-skill) · [`egos-governance`](https://github.com/enioxt/egos-governance) (registro histórico) · [`BLUEPRINT-EGOS`](https://github.com/enioxt/BLUEPRINT-EGOS) |
+| **Privacidade e segurança de dados brasileiros** | masking de PII/LGPD e desenho de superfícies em que o motor pode viajar sem o dado real | [`guard-brasil`](https://github.com/enioxt/guard-brasil) |
+| **Investigação e sistemas orientados a evidência** | transformar fontes, relações e sinais em estruturas auditáveis, sem confundir hipótese com fato | [`hackathon-dados-publicos`](https://github.com/enioxt/hackathon-dados-publicos) · governança/proveniência nos projetos acima |
+| **Descoberta técnica e curadoria** | procurar projetos emergentes, comparar sinais e transformar pesquisa dispersa em radar reutilizável | [`gem-hunter`](https://github.com/enioxt/gem-hunter) · [`gem-hunter-skill`](https://github.com/enioxt/gem-hunter-skill) · [`awesome-gems`](https://github.com/enioxt/awesome-gems) |
+| **Sistemas pessoais local-first** | usar IA sobre informação própria preservando controle local e fronteiras explícitas | [`egos-cortex`](https://github.com/enioxt/egos-cortex) |
+| **Experimentos humanos e culturais com software** | usar tecnologia também como meio de experiência, curadoria e presença — não só como automação empresarial | [`radio-philein`](https://github.com/enioxt/radio-philein) · [rádio ao vivo](https://cinco.ia.br/radio/) |
 **E o resto?** Boa parte do trabalho vive em repositórios privados — clientes, investigação, dados sob sigilo. A regra é a 4ª do framework: **o motor viaja; o dado real, nunca.** O que pode ser aberto, abre; a fronteira é declarada, não escondida.
 
 ---
