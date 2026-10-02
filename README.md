@@ -1,10 +1,12 @@
+> **MIGRAÇÃO EGOS — 2026-10-01** — O EGOS passa a ter dois repositórios canônicos: o núcleo privado e [enioxt/cinco](https://github.com/enioxt/cinco) (público). Nenhum outro repositório é porta de entrada, kernel ou versão corrente.
+
 # Enio Rocha · investigador e arquiteto de sistemas de IA 👋
 
 Construo infraestrutura para agentes de IA que **provam o que afirmam** e sabem o que **não** podem fazer — em domínios onde erro, segurança e rastreabilidade importam.
 
 Ponto de partida: investigação policial. A tecnologia veio depois, para resolver problemas que eu conhecia por dentro. Isso virou método, o método virou framework, e o framework virou uma federação que roda todo dia.
 
-> **Este é o mapa geral.** Todos os meus repositórios públicos apontam para cá; daqui você chega a tudo.
+> **Este é só o meu perfil.** O ponto de entrada público do EGOS e do Cinco é [github.com/enioxt/cinco](https://github.com/enioxt/cinco) ([cinco.ia.br](https://cinco.ia.br)). Os repositórios listados abaixo são história ou pacotes avulsos, não portas de entrada.
 
 ---
 
@@ -43,7 +45,7 @@ repositórios. O GitHub é a fonte de prova; o **Cinco é a camada que condensa 
 
 ---
 
-## Comece por aqui — três portas
+## Onde está o conteúdo válido — três caminhos
 
 1. **[O kit aberto (MIT)](https://cinco.ia.br/kit/)** — cinco motores testados (fila de agentes, painel vivo, vigia, porta de entrada, crônica). Feito para **colar inteiro na sua inteligência artificial** (Claude Code, Cursor, o que você já usa) e pedir para ela rodar. Tudo local, na sua máquina.
 2. **[cinco.ia.br](https://cinco.ia.br)** — o convite completo: o céu do ecossistema com o status real de cada peça, a constituição em cinco regras, e a entrada da federação em [/entrar](https://cinco.ia.br/entrar) (login GitHub + aceite).
