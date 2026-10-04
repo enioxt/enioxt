@@ -6,7 +6,7 @@ Construo infraestrutura para agentes de IA que **provam o que afirmam** e sabem 
 
 Ponto de partida: investigação policial. A tecnologia veio depois, para resolver problemas que eu conhecia por dentro. Isso virou método, o método virou framework, e o framework virou uma federação que roda todo dia.
 
-> **Este é só o meu perfil.** O ponto de entrada público do EGOS e do Cinco é [github.com/enioxt/cinco](https://github.com/enioxt/cinco) ([cinco.ia.br](https://cinco.ia.br)). Os repositórios listados abaixo são história ou pacotes avulsos, não portas de entrada.
+> **Este é só o meu perfil.** O ponto de entrada público do EGOS e do Cinco é [github.com/enioxt/cinco](https://github.com/enioxt/cinco) ([cinco.ia.br](https://cinco.ia.br)). Os repositórios listados abaixo são história, evidência ou pacotes avulsos — não portas de entrada nem versões correntes.
 
 ---
 
@@ -17,7 +17,7 @@ Ponto de partida: investigação policial. A tecnologia veio depois, para resolv
 | **CINCO** | O ecossistema mais amplo — o convite, o universo, a federação de pessoas | [cinco.ia.br](https://cinco.ia.br) |
 | **EGOS** | O framework/federação de IA governada que me representa dentro dele — agentes, regras, skills, memória, provas | [egos.ia.br](https://egos.ia.br) |
 
-A premissa é simples: agente útil precisa de regras claras, proveniência (de onde veio cada informação), decisão humana nas partes sensíveis e fronteiras que não se cruzam em silêncio. Não é plataforma. É arquitetura — em público, em português, com código que você pode auditar.
+A premissa é simples: agente útil precisa de regras claras, proveniência (de onde veio cada informação), decisão humana nas partes sensíveis e fronteiras que não se cruzam em silêncio. Não é plataforma. É arquitetura — com projeção pública, provas e artefatos auditáveis onde a fronteira de privacidade permite.
 
 
 ---
@@ -62,14 +62,17 @@ inspecionável**. Um mesmo repositório pode provar mais de uma capacidade; uma 
 formada por vários repositórios. O índice interno continua sendo o registry do EGOS — aqui entra só o
 recorte que faz sentido mostrar ao mundo.
 
+**Importante:** evidência histórica continua sendo evidência, mas não vira autoridade atual. Repositórios marcados abaixo como históricos/donor servem para arqueologia, padrões e prova de trabalho passado; o ponto de entrada vigente continua sendo o Cinco.
+
 | Capacidade | O que está sendo demonstrado | Evidências públicas |
 |---|---|---|
-| **Governança de IA e agentes auditáveis** | regras que viram gates, evidência antes de afirmação, HITL, SSOT e prevenção de drift | [`egos-governance-skill`](https://github.com/enioxt/egos-governance-skill) · [`egos-governance`](https://github.com/enioxt/egos-governance) (registro histórico) · [`BLUEPRINT-EGOS`](https://github.com/enioxt/BLUEPRINT-EGOS) |
+| **Governança de IA e agentes auditáveis** | regras que viram gates, evidência antes de afirmação, HITL, SSOT e prevenção de drift | [`cinco`](https://github.com/enioxt/cinco) (projeção pública atual) · [`egos-governance-skill`](https://github.com/enioxt/egos-governance-skill) (histórico/donor) · [`egos-governance`](https://github.com/enioxt/egos-governance) (histórico) |
 | **Privacidade e segurança de dados brasileiros** | masking de PII/LGPD e desenho de superfícies em que o motor pode viajar sem o dado real | [`guard-brasil`](https://github.com/enioxt/guard-brasil) |
-| **Investigação e sistemas orientados a evidência** | transformar fontes, relações e sinais em estruturas auditáveis, sem confundir hipótese com fato | [`hackathon-dados-publicos`](https://github.com/enioxt/hackathon-dados-publicos) · governança/proveniência nos projetos acima |
-| **Descoberta técnica e curadoria** | procurar projetos emergentes, comparar sinais e transformar pesquisa dispersa em radar reutilizável | [`gem-hunter`](https://github.com/enioxt/gem-hunter) · [`gem-hunter-skill`](https://github.com/enioxt/gem-hunter-skill) · [`awesome-gems`](https://github.com/enioxt/awesome-gems) |
-| **Sistemas pessoais local-first** | usar IA sobre informação própria preservando controle local e fronteiras explícitas | [`egos-cortex`](https://github.com/enioxt/egos-cortex) |
+| **Investigação e sistemas orientados a evidência** | transformar fontes, relações e sinais em estruturas auditáveis, sem confundir hipótese com fato | [`hackathon-dados-publicos`](https://github.com/enioxt/hackathon-dados-publicos) (histórico/donor) · governança/proveniência nos projetos acima |
+| **Descoberta técnica e curadoria** | procurar projetos emergentes, comparar sinais e transformar pesquisa dispersa em radar reutilizável | [`gem-hunter`](https://github.com/enioxt/gem-hunter) · [`gem-hunter-skill`](https://github.com/enioxt/gem-hunter-skill) · [`awesome-gems`](https://github.com/enioxt/awesome-gems) — históricos/donor |
+| **Sistemas pessoais local-first** | usar IA sobre informação própria preservando controle local e fronteiras explícitas | [`egos-cortex`](https://github.com/enioxt/egos-cortex) (histórico/donor) |
 | **Experimentos humanos e culturais com software** | usar tecnologia também como meio de experiência, curadoria e presença — não só como automação empresarial | [`radio-philein`](https://github.com/enioxt/radio-philein) · [rádio ao vivo](https://cinco.ia.br/radio/) |
+
 **E o resto?** Boa parte do trabalho vive em repositórios privados — clientes, investigação, dados sob sigilo. A regra é a 4ª do framework: **o motor viaja; o dado real, nunca.** O que pode ser aberto, abre; a fronteira é declarada, não escondida.
 
 ---
@@ -81,4 +84,4 @@ recorte que faz sentido mostrar ao mundo.
 
 Filosofia de trabalho: *Simplicity First* — o mínimo que resolve, falha visível, sem caixa-preta; e **verdade provada**: afirmação sem prova não sobe.
 
-<sub>EGOS Framework · atualizado em 31 de agosto de 2026</sub>
+<sub>EGOS Framework · revisado em 4 de outubro de 2026</sub>
